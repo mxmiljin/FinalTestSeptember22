@@ -7,6 +7,8 @@ class Program
         string inputData = Console.ReadLine();
         string noSpaceData = inputData.Replace(" ", "");
         string[] DataArray = noSpaceData.Split(",");
+        
+        Console.Write("Элементы списка, содержащие 3 или меньше символов: ");
 
         for (int i = 0; i < DataArray.Length; i++)
         {
